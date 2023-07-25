@@ -1,6 +1,7 @@
 from time import time
 
 from checks import *
+from get_data import get_data
 from get_fantasy_roster import get_fantasy_roster
 from get_input_args import get_input_args
 from helpers import *
@@ -19,7 +20,7 @@ def main():
 
     start_time = time()
     # read league files
-
+    get_data(in_arg.league)
 
     # calc elapsed time
     end_time = time()
