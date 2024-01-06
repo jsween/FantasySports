@@ -14,5 +14,6 @@ def get_data(league):
     if L.Leagues[league]['supported']:
         df = pd.read_csv(f'data/nfl/2022.csv')
         print(f'Data for {league.upper()} successfully imported.')
+        return df
     else:
         print(f'WARNING: {league.upper()} is not supported yet.')

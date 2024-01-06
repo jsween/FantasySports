@@ -18,3 +18,4 @@ def get_fantasy_roster(league):
         roster_template = RosterTemplates.nfl_roster_template
     roster = Roster(league, roster_template)
     print(roster)
+    return roster
