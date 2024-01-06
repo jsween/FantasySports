@@ -7,7 +7,7 @@ nfl_roster_template = {
     'pos2' : Position('Runningback', 'RB', 2, 4, 'IOP'),
     'pos3' : Position('Wide Receiver', 'WR', 2, 4, 'IOP'),
     'pos4' : Position('Tight End', 'TE', 1, 3, 'IOP'),
-    'pos5' : Position('Flex', 'FLX', 1, -1, 'IOP'),
+    'pos5' : Position('Flex', 'FLX', 2, -1, 'IOP'),
     'pos6' : Position('Defense Special Teams', 'DST', 1, 2, 'DST'),
     'pos7' : Position('Kicker', 'K', 1, 2, 'K'),
     'pos8' : Position('Defensive Player', 'IDP', 1, 3, 'IDP'),
